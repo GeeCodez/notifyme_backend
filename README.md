@@ -117,7 +117,3 @@ bookings/    # Booking model, serializer, API view, Celery email task
 - Email sending is configured to the **console backend** in development.
 - Celery broker is configured for RabbitMQ (`amqp://guest:guest@rabbitmq:5672//`).
 - Default REST permissions require authentication unless explicitly overridden.
-
-## Why this project fits a portfolio
-
-This backend demonstrates practical API engineering patterns often used in production systems: auth boundaries, async workflows, task queues, relational data modeling, and reproducible containerized environments.
